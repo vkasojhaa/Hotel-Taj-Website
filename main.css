@@ -1,0 +1,43 @@
+
+a{text-decoration:none;}
+a:link {color:white;}
+a:visited {color:white;}
+a:hover {color:#76fa2e;}
+
+menu{ position:fixed; top:-20px; left:-20px;
+    width: 1400px;
+    height: 118px;
+    background: black; opacity:0.5; z-index:1;
+}
+
+like{position: fixed; top:20px; right:0px;
+    width: 40px;
+    height: 50px; z-index:1;
+    background: white; opacity:0.8;
+    transition: width 0.4s;
+}
+like:hover {
+    width: 180px; z-index:1; opacity:0.9;
+}
+
+
+p{position: absolute;left:18; top: 1000px;
+margin-top: 30px;
+margin-right:360px;
+margin-left: 380px; color:black;  line-height: 26px; text-align:center;font-style: oblique; font-size:20px;}
+
+
+login{position: absolute;left:530; top: 150px;
+                height: 330px;
+                width: 220px;
+	margin: 40px auto;
+	padding: 25px;
+	background-color: rgba(200,220,220,0.6);
+	border-radius: 5px;
+               box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2),
+    inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+log2{opacity:0.8; position: absolute; left:60; top: 320px; }
+log2:hover{opacity:1;}
